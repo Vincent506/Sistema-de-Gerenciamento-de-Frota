@@ -1,5 +1,5 @@
 package model;
 
 public interface Alugavel {
-    public void calcularValorAluguel(int dias);
+    public double calcularValorAluguel(int dias);
 }
