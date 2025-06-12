@@ -4,10 +4,9 @@ public class Van extends Carros{
 
     private int capacidade;
     
-    public Van(String modelo,String marca,String placa, int anofabrication, int dias, int especifico){
-        super(modelo, marca, placa, anofabrication, dias, especifico);
+    public Van(String modelo,String marca,String placa, int anofabrication, int dias, int capacidade){
+        super(modelo, marca, placa, anofabrication, dias, capacidade);
         setAluguel(180);
-        setCapacidade(especifico);
     }
 
     public void setCapacidade(int capacidade){this.capacidade = capacidade;}
